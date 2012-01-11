@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2345E614B1C5370025AF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2345E514B1C5370025AF2A /* UIKit.framework */; };
+		FC2345E814B1C5370025AF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2345E714B1C5370025AF2A /* Foundation.framework */; };
+		FC2345EA14B1C5370025AF2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2345E914B1C5370025AF2A /* CoreGraphics.framework */; };
+		FC2345F014B1C5370025AF2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC2345EE14B1C5370025AF2A /* InfoPlist.strings */; };
+		FC2345F214B1C5370025AF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2345F114B1C5370025AF2A /* main.m */; };
+		FC2345F614B1C5370025AF2A /* mbsfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2345F514B1C5370025AF2A /* mbsfAppDelegate.m */; };
+		FC2345F914B1C5370025AF2A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2345F714B1C5370025AF2A /* MainStoryboard_iPhone.storyboard */; };
+		FC2345FC14B1C5370025AF2A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2345FA14B1C5370025AF2A /* MainStoryboard_iPad.storyboard */; };
+		FC2345FF14B1C5370025AF2A /* mbsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2345FE14B1C5370025AF2A /* mbsSettingsViewController.m */; };
+		FC23460114B1C5380025AF2A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = FC23460014B1C5380025AF2A /* first.png */; };
+		FC23460314B1C5380025AF2A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC23460214B1C5380025AF2A /* first@2x.png */; };
+		FC23460614B1C5380025AF2A /* mbsTeamslistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC23460514B1C5380025AF2A /* mbsTeamslistViewController.m */; };
+		FC23460814B1C5380025AF2A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FC23460714B1C5380025AF2A /* second.png */; };
+		FC23460A14B1C5380025AF2A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC23460914B1C5380025AF2A /* second@2x.png */; };
+		FC23461214B1C5380025AF2A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC23461114B1C5380025AF2A /* SenTestingKit.framework */; };
+		FC23461314B1C5380025AF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2345E514B1C5370025AF2A /* UIKit.framework */; };
+		FC23461414B1C5380025AF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2345E714B1C5370025AF2A /* Foundation.framework */; };
+		FC23461C14B1C5380025AF2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC23461A14B1C5380025AF2A /* InfoPlist.strings */; };
+		FC23461F14B1C5380025AF2A /* TournamentGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC23461E14B1C5380025AF2A /* TournamentGeneratorTests.m */; };
+		FCAF805E14B30FF7005E97F8 /* AppDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF805A14B30FF7005E97F8 /* AppDataObject.m */; };
+		FCAF805F14B30FF7005E97F8 /* SettingsAppDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF805D14B30FF7005E97F8 /* SettingsAppDataObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC23461514B1C5380025AF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2345D814B1C5370025AF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2345E014B1C5370025AF2A;
+			remoteInfo = TournamentGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2345E114B1C5370025AF2A /* TournamentGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TournamentGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2345E514B1C5370025AF2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC2345E714B1C5370025AF2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC2345E914B1C5370025AF2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC2345ED14B1C5370025AF2A /* TournamentGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TournamentGenerator-Info.plist"; sourceTree = "<group>"; };
+		FC2345EF14B1C5370025AF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC2345F114B1C5370025AF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC2345F314B1C5370025AF2A /* TournamentGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TournamentGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		FC2345F414B1C5370025AF2A /* mbsfAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mbsfAppDelegate.h; sourceTree = "<group>"; };
+		FC2345F514B1C5370025AF2A /* mbsfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mbsfAppDelegate.m; sourceTree = "<group>"; };
+		FC2345F814B1C5370025AF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FC2345FB14B1C5370025AF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FC2345FD14B1C5370025AF2A /* mbsSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mbsSettingsViewController.h; sourceTree = "<group>"; };
+		FC2345FE14B1C5370025AF2A /* mbsSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mbsSettingsViewController.m; sourceTree = "<group>"; };
+		FC23460014B1C5380025AF2A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		FC23460214B1C5380025AF2A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		FC23460414B1C5380025AF2A /* mbsTeamslistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mbsTeamslistViewController.h; sourceTree = "<group>"; };
+		FC23460514B1C5380025AF2A /* mbsTeamslistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mbsTeamslistViewController.m; sourceTree = "<group>"; };
+		FC23460714B1C5380025AF2A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		FC23460914B1C5380025AF2A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		FC23461014B1C5380025AF2A /* TournamentGeneratorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournamentGeneratorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC23461114B1C5380025AF2A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC23461914B1C5380025AF2A /* TournamentGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TournamentGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		FC23461B14B1C5380025AF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC23461D14B1C5380025AF2A /* TournamentGeneratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TournamentGeneratorTests.h; sourceTree = "<group>"; };
+		FC23461E14B1C5380025AF2A /* TournamentGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TournamentGeneratorTests.m; sourceTree = "<group>"; };
+		FCAF805914B30FF7005E97F8 /* AppDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataObject.h; sourceTree = "<group>"; };
+		FCAF805A14B30FF7005E97F8 /* AppDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataObject.m; sourceTree = "<group>"; };
+		FCAF805B14B30FF7005E97F8 /* AppDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateProtocol.h; sourceTree = "<group>"; };
+		FCAF805C14B30FF7005E97F8 /* SettingsAppDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsAppDataObject.h; sourceTree = "<group>"; };
+		FCAF805D14B30FF7005E97F8 /* SettingsAppDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsAppDataObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2345DE14B1C5370025AF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2345E614B1C5370025AF2A /* UIKit.framework in Frameworks */,
+				FC2345E814B1C5370025AF2A /* Foundation.framework in Frameworks */,
+				FC2345EA14B1C5370025AF2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC23460C14B1C5380025AF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23461214B1C5380025AF2A /* SenTestingKit.framework in Frameworks */,
+				FC23461314B1C5380025AF2A /* UIKit.framework in Frameworks */,
+				FC23461414B1C5380025AF2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2345D614B1C5370025AF2A = {
+			isa = PBXGroup;
+			children = (
+				FC2345EB14B1C5370025AF2A /* TournamentGenerator */,
+				FC23461714B1C5380025AF2A /* TournamentGeneratorTests */,
+				FC2345E414B1C5370025AF2A /* Frameworks */,
+				FC2345E214B1C5370025AF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2345E214B1C5370025AF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2345E114B1C5370025AF2A /* TournamentGenerator.app */,
+				FC23461014B1C5380025AF2A /* TournamentGeneratorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2345E414B1C5370025AF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC2345E514B1C5370025AF2A /* UIKit.framework */,
+				FC2345E714B1C5370025AF2A /* Foundation.framework */,
+				FC2345E914B1C5370025AF2A /* CoreGraphics.framework */,
+				FC23461114B1C5380025AF2A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC2345EB14B1C5370025AF2A /* TournamentGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF805714B30DFB005E97F8 /* Classes */,
+				FC2345F414B1C5370025AF2A /* mbsfAppDelegate.h */,
+				FC2345F514B1C5370025AF2A /* mbsfAppDelegate.m */,
+				FC2345F714B1C5370025AF2A /* MainStoryboard_iPhone.storyboard */,
+				FC2345FA14B1C5370025AF2A /* MainStoryboard_iPad.storyboard */,
+				FCAF805814B30E1A005E97F8 /* Resources */,
+				FC2345EC14B1C5370025AF2A /* Supporting Files */,
+			);
+			path = TournamentGenerator;
+			sourceTree = "<group>";
+		};
+		FC2345EC14B1C5370025AF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC2345ED14B1C5370025AF2A /* TournamentGenerator-Info.plist */,
+				FC2345EE14B1C5370025AF2A /* InfoPlist.strings */,
+				FC2345F114B1C5370025AF2A /* main.m */,
+				FC2345F314B1C5370025AF2A /* TournamentGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC23461714B1C5380025AF2A /* TournamentGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC23461D14B1C5380025AF2A /* TournamentGeneratorTests.h */,
+				FC23461E14B1C5380025AF2A /* TournamentGeneratorTests.m */,
+				FC23461814B1C5380025AF2A /* Supporting Files */,
+			);
+			path = TournamentGeneratorTests;
+			sourceTree = "<group>";
+		};
+		FC23461814B1C5380025AF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC23461914B1C5380025AF2A /* TournamentGeneratorTests-Info.plist */,
+				FC23461A14B1C5380025AF2A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCAF805714B30DFB005E97F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF806014B31B89005E97F8 /* Model */,
+				FCAF806114B31BA2005E97F8 /* Control */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FCAF805814B30E1A005E97F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC23460014B1C5380025AF2A /* first.png */,
+				FC23460214B1C5380025AF2A /* first@2x.png */,
+				FC23460714B1C5380025AF2A /* second.png */,
+				FC23460914B1C5380025AF2A /* second@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FCAF806014B31B89005E97F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF805914B30FF7005E97F8 /* AppDataObject.h */,
+				FCAF805A14B30FF7005E97F8 /* AppDataObject.m */,
+				FCAF805B14B30FF7005E97F8 /* AppDelegateProtocol.h */,
+				FCAF805C14B30FF7005E97F8 /* SettingsAppDataObject.h */,
+				FCAF805D14B30FF7005E97F8 /* SettingsAppDataObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FCAF806114B31BA2005E97F8 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				FC2345FD14B1C5370025AF2A /* mbsSettingsViewController.h */,
+				FC2345FE14B1C5370025AF2A /* mbsSettingsViewController.m */,
+				FC23460414B1C5380025AF2A /* mbsTeamslistViewController.h */,
+				FC23460514B1C5380025AF2A /* mbsTeamslistViewController.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2345E014B1C5370025AF2A /* TournamentGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC23462214B1C5380025AF2A /* Build configuration list for PBXNativeTarget "TournamentGenerator" */;
+			buildPhases = (
+				FC2345DD14B1C5370025AF2A /* Sources */,
+				FC2345DE14B1C5370025AF2A /* Frameworks */,
+				FC2345DF14B1C5370025AF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TournamentGenerator;
+			productName = TournamentGenerator;
+			productReference = FC2345E114B1C5370025AF2A /* TournamentGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC23460F14B1C5380025AF2A /* TournamentGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC23462514B1C5380025AF2A /* Build configuration list for PBXNativeTarget "TournamentGeneratorTests" */;
+			buildPhases = (
+				FC23460B14B1C5380025AF2A /* Sources */,
+				FC23460C14B1C5380025AF2A /* Frameworks */,
+				FC23460D14B1C5380025AF2A /* Resources */,
+				FC23460E14B1C5380025AF2A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC23461614B1C5380025AF2A /* PBXTargetDependency */,
+			);
+			name = TournamentGeneratorTests;
+			productName = TournamentGeneratorTests;
+			productReference = FC23461014B1C5380025AF2A /* TournamentGeneratorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2345D814B1C5370025AF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FC2345DB14B1C5370025AF2A /* Build configuration list for PBXProject "TournamentGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC2345D614B1C5370025AF2A;
+			productRefGroup = FC2345E214B1C5370025AF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2345E014B1C5370025AF2A /* TournamentGenerator */,
+				FC23460F14B1C5380025AF2A /* TournamentGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2345DF14B1C5370025AF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2345F014B1C5370025AF2A /* InfoPlist.strings in Resources */,
+				FC2345F914B1C5370025AF2A /* MainStoryboard_iPhone.storyboard in Resources */,
+				FC2345FC14B1C5370025AF2A /* MainStoryboard_iPad.storyboard in Resources */,
+				FC23460114B1C5380025AF2A /* first.png in Resources */,
+				FC23460314B1C5380025AF2A /* first@2x.png in Resources */,
+				FC23460814B1C5380025AF2A /* second.png in Resources */,
+				FC23460A14B1C5380025AF2A /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC23460D14B1C5380025AF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23461C14B1C5380025AF2A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC23460E14B1C5380025AF2A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2345DD14B1C5370025AF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2345F214B1C5370025AF2A /* main.m in Sources */,
+				FC2345F614B1C5370025AF2A /* mbsfAppDelegate.m in Sources */,
+				FC2345FF14B1C5370025AF2A /* mbsSettingsViewController.m in Sources */,
+				FC23460614B1C5380025AF2A /* mbsTeamslistViewController.m in Sources */,
+				FCAF805E14B30FF7005E97F8 /* AppDataObject.m in Sources */,
+				FCAF805F14B30FF7005E97F8 /* SettingsAppDataObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC23460B14B1C5380025AF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23461F14B1C5380025AF2A /* TournamentGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC23461614B1C5380025AF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2345E014B1C5370025AF2A /* TournamentGenerator */;
+			targetProxy = FC23461514B1C5380025AF2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2345EE14B1C5370025AF2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2345EF14B1C5370025AF2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC2345F714B1C5370025AF2A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2345F814B1C5370025AF2A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2345FA14B1C5370025AF2A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2345FB14B1C5370025AF2A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FC23461A14B1C5380025AF2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC23461B14B1C5380025AF2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC23462014B1C5380025AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC23462114B1C5380025AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC23462314B1C5380025AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TournamentGenerator/TournamentGenerator-Prefix.pch";
+				INFOPLIST_FILE = "TournamentGenerator/TournamentGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC23462414B1C5380025AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TournamentGenerator/TournamentGenerator-Prefix.pch";
+				INFOPLIST_FILE = "TournamentGenerator/TournamentGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC23462614B1C5380025AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TournamentGenerator.app/TournamentGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TournamentGenerator/TournamentGenerator-Prefix.pch";
+				INFOPLIST_FILE = "TournamentGeneratorTests/TournamentGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FC23462714B1C5380025AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TournamentGenerator.app/TournamentGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TournamentGenerator/TournamentGenerator-Prefix.pch";
+				INFOPLIST_FILE = "TournamentGeneratorTests/TournamentGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2345DB14B1C5370025AF2A /* Build configuration list for PBXProject "TournamentGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23462014B1C5380025AF2A /* Debug */,
+				FC23462114B1C5380025AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC23462214B1C5380025AF2A /* Build configuration list for PBXNativeTarget "TournamentGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23462314B1C5380025AF2A /* Debug */,
+				FC23462414B1C5380025AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC23462514B1C5380025AF2A /* Build configuration list for PBXNativeTarget "TournamentGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23462614B1C5380025AF2A /* Debug */,
+				FC23462714B1C5380025AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2345D814B1C5370025AF2A /* Project object */;
+}

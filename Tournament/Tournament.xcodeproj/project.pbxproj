@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC23463814B1C7110025AF2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC23463714B1C7110025AF2A /* main.cpp */; };
+		FC23465514B1F02C0025AF2A /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC23464F14B1F02C0025AF2A /* game.cpp */; };
+		FC23465614B1F02C0025AF2A /* team.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC23465114B1F02C0025AF2A /* team.cpp */; };
+		FC23465714B1F02C0025AF2A /* tournament.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC23465314B1F02C0025AF2A /* tournament.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC23463114B1C7100025AF2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC23463314B1C7110025AF2A /* Tournament */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tournament; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC23463714B1C7110025AF2A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC23464B14B1E9E60025AF2A /* definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = definitions.h; sourceTree = "<group>"; };
+		FC23464F14B1F02C0025AF2A /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		FC23465014B1F02C0025AF2A /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		FC23465114B1F02C0025AF2A /* team.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = team.cpp; sourceTree = "<group>"; };
+		FC23465214B1F02C0025AF2A /* team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = team.h; sourceTree = "<group>"; };
+		FC23465314B1F02C0025AF2A /* tournament.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tournament.cpp; sourceTree = "<group>"; };
+		FC23465414B1F02C0025AF2A /* tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tournament.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC23463014B1C7100025AF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC23462814B1C7100025AF2A = {
+			isa = PBXGroup;
+			children = (
+				FC23463614B1C7110025AF2A /* Tournament */,
+				FC23463414B1C7110025AF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC23463414B1C7110025AF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC23463314B1C7110025AF2A /* Tournament */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC23463614B1C7110025AF2A /* Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				FC23465814B1F03B0025AF2A /* Class */,
+				FC23463714B1C7110025AF2A /* main.cpp */,
+				FC23464B14B1E9E60025AF2A /* definitions.h */,
+			);
+			path = Tournament;
+			sourceTree = "<group>";
+		};
+		FC23465814B1F03B0025AF2A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FC23464F14B1F02C0025AF2A /* game.cpp */,
+				FC23465014B1F02C0025AF2A /* game.h */,
+				FC23465114B1F02C0025AF2A /* team.cpp */,
+				FC23465214B1F02C0025AF2A /* team.h */,
+				FC23465314B1F02C0025AF2A /* tournament.cpp */,
+				FC23465414B1F02C0025AF2A /* tournament.h */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC23463214B1C7100025AF2A /* Tournament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC23463D14B1C7110025AF2A /* Build configuration list for PBXNativeTarget "Tournament" */;
+			buildPhases = (
+				FC23462F14B1C7100025AF2A /* Sources */,
+				FC23463014B1C7100025AF2A /* Frameworks */,
+				FC23463114B1C7100025AF2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tournament;
+			productName = Tournament;
+			productReference = FC23463314B1C7110025AF2A /* Tournament */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC23462A14B1C7100025AF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FC23462D14B1C7100025AF2A /* Build configuration list for PBXProject "Tournament" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC23462814B1C7100025AF2A;
+			productRefGroup = FC23463414B1C7110025AF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC23463214B1C7100025AF2A /* Tournament */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC23462F14B1C7100025AF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC23463814B1C7110025AF2A /* main.cpp in Sources */,
+				FC23465514B1F02C0025AF2A /* game.cpp in Sources */,
+				FC23465614B1F02C0025AF2A /* team.cpp in Sources */,
+				FC23465714B1F02C0025AF2A /* tournament.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC23463B14B1C7110025AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC23463C14B1C7110025AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC23463E14B1C7110025AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC23463F14B1C7110025AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC23462D14B1C7100025AF2A /* Build configuration list for PBXProject "Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23463B14B1C7110025AF2A /* Debug */,
+				FC23463C14B1C7110025AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC23463D14B1C7110025AF2A /* Build configuration list for PBXNativeTarget "Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC23463E14B1C7110025AF2A /* Debug */,
+				FC23463F14B1C7110025AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC23462A14B1C7100025AF2A /* Project object */;
+}
